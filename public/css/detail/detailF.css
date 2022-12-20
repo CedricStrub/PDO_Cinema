@@ -1,0 +1,480 @@
+.space{
+    height: 30px;
+}
+
+#film{
+    width: fit-content;
+    height: fit-content;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.borderW1{
+    background: var(--secondary);
+    width: 450px;
+    height: 50px;
+}
+
+.borderW2{
+    background: var(--secondary);
+    width: 1450px;
+    height: 50px;
+}
+
+.borderW3{
+    background: var(--secondary);
+    width: 350px;
+    height: 50px;
+}
+
+.borderH1{
+    background: var(--secondary);
+    width: 50px;
+    height: 750px;
+}
+
+.borderH2{
+    background: var(--secondary);
+    width: 50px;
+    height: 650px;
+}
+
+.borderH3{
+    background: var(--secondary);
+    width: 50px;
+    height: 100px;
+}
+
+.borderH4{
+    background: var(--secondary);
+    width: 50px;
+    height: 200px;
+}
+
+.borderH5{
+    background: var(--secondary);
+    width: 50px;
+    height: 500px;
+}
+
+.titre{
+    color: var(--primary_txt);
+    font-size: 40px;
+    width: 450px;
+    max-width: 450px;
+    text-align: center;
+    top: -25px;
+    position: relative;
+}
+
+.titre_bg{
+    width: 100%;
+    height: 100px;
+    background: var(--secondary);
+}
+
+.affiche{
+    background: var(--tertiary);
+    width: 450px;
+    height: 650px;
+}
+
+.affiche img{
+    width: 100%;
+    height: 100%;
+}
+
+.titre_info{
+    color: var(--primary_txt);
+    font-size: 40px;
+    text-align: center;
+    top: -25px;
+    position: relative;
+}
+
+.titre_info_bg{
+    width: 100%;
+    height: 50px;
+    background: var(--secondary);
+}
+
+.cadre_info{
+    background: var(--secondary);
+    width: 450px;
+    height: 200px;
+}
+
+.txt_info{
+    color: var(--primary_txt);
+    font-size: 32px;
+    text-align: center;
+}
+
+.txt_info1{
+    color: var(--primary_txt);
+    font-size: 50px;
+    text-align: center;
+}
+
+.txt_info_offset{
+    position: relative;
+    left: 20px;
+}
+
+.txt_info_bg{
+    width: 100%;
+    height: 50px;
+    background: var(--secondary);
+}
+
+.cadre_real{
+    background: var(--secondary);
+    width: 500px;
+    height: 150px;
+}
+
+.cadre_synopsis{
+    background: var(--secondary);
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.txt_synopsis{
+    color: var(--primary_txt);
+    font-size: 19px;
+}
+
+.limit_s{
+    height: 200px;
+    overflow: hidden;
+}
+
+.limit_s1{
+    height: 500px;
+    overflow: hidden;
+}
+
+.titre_acteur{
+    color: var(--primary_txt);
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    top: -25px;
+    position: relative;
+}
+
+.titre_acteur_bg{
+    width: 100%;
+    height: 50px;
+    background: var(--secondary);
+}
+.spacerW25{
+    background: var(--secondary);
+    width: 50px;
+    height: 200px;
+}
+
+.spacerW50{
+    background: var(--secondary);
+    width: 50px;
+    height: 300px;
+}
+
+.square{
+    background: var(--secondary);
+    width: 50px;
+    height: 50px;
+}
+
+.shape1{
+    background: var(--secondary);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    width: 50px;
+    height: 50px;
+}
+
+.shape2{
+    background: var(--secondary);
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    width: 50px;
+    height: 50px;
+}
+
+.shape3{
+    background: var(--secondary);
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    width: 50px;
+    height: 50px;
+}
+
+.shape4{
+    background: var(--secondary);
+    clip-path: polygon(100% 100%, 0 0, 100% 0);
+    width: 50px;
+    height: 50px;
+}
+
+.shape5{
+    background: var(--secondary);
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    top: 800px;
+}
+.shape6{
+    background: rgb(18, 18, 18);
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 75px;
+}
+
+.colorP{
+    background: var(--primary);
+}
+
+.pos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    left: -25px;
+    position: relative;
+}
+
+.pos1 a{
+    top: -75px;
+    left: 37px;
+    position: relative;
+}
+
+.pos1 .demi_bg1{
+    width:  75px;
+    height: 90px;
+    background: var(--primary);
+    background: linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
+    left: 75px;
+    position: absolute;
+    border-style: dashed;
+    border-width: 5px;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+.rhombus1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    z-index: 0;
+    background-size: 50% 100%,50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-45deg,var(--secondary) 53.5%,var(--primary) 53.5%,
+    var(--primary) 60%,var(--secondary) 60%), linear-gradient(45deg,var(--secondary) 53.5%,
+    var(--primary) 53.5%,var(--primary) 60%,var(--secondary) 60%);
+    background-image: linear-gradient(-45deg,var(--primary) 53.5%,var(--secondary) 53.5%,
+    var(--secondary) 60%,var(--primary) 60%), linear-gradient(45deg,var(--primary) 53.5%,
+    var(--secondary) 53.5%,var(--secondary) 60%,var(--primary) 60%);
+    box-shadow: 5px 10px #000000;
+}
+
+.pos1 .inner1{
+    display: block;
+    width:  150px;
+    height: 150px;
+    z-index: 10;
+    position: absolute;
+    clip-path: polygon(100% 50%, 50% 100%, 0 50%, 20% 50%, 50% 80%,80% 50%);
+    background-size: 50% 100%,50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg,var(--secondary) 40%,var(--primary) 40%), 
+    linear-gradient(-45deg,var(--secondary) 40%,var(--primary) 40%);
+    background-image: linear-gradient(45deg,var(--primary) 40%,var(--secondary) 40%), 
+    linear-gradient(-45deg,var(--primary) 40%,var(--secondary) 40%);
+    
+}
+
+.pos1 img{
+    overflow: hidden;
+    position: absolute;
+    top: 17px;
+    width:  75px;
+    height: 95px;
+    z-index: 5;
+    box-shadow: 0px -2px 4px #ffffff99;
+}
+
+.end1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  45px;
+    height: 90px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: var(--primary);
+    left: -25px;
+    position: relative;
+}
+
+.end1 .end_inner1{
+    width:  30px;
+    height: 60px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: linear-gradient(90deg, var(--primary) 20%, var(--secondary) 100%);
+}
+
+.table_txt_bg1{
+    background: var(--primary);
+    width: 150px;
+    overflow: hidden;
+    left: -25px;
+    position: relative;
+}
+
+.table_txt1{
+    color: var(--primary_txt);
+    font-size: 30px;
+    left: 15px;
+    position: relative;
+}
+
+.spacer1{
+    height: 30px;
+}
+
+.cadre_acteur{
+    background: var(--secondary);
+    width: 450px;
+    height: 600px;
+}
+
+
+.pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    position: relative;
+}
+
+.pos a{
+    top: -75px;
+    left: 37px;
+    position: relative;
+}
+
+
+.pos .demi_bg{
+    width:  75px;
+    height: 90px;
+    background: var(--secondary);
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    left: 75px;
+    position: absolute;
+    border-style: dashed;
+    border-width: 5px;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+.rhombus{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width:  150px;
+    height: 150px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    z-index: 0;
+    background-size: 50% 100%,50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(-45deg,var(--primary) 53.5%,var(--secondary) 53.5%,
+    var(--secondary) 60%,var(--primary) 60%), linear-gradient(45deg,var(--primary) 53.5%,
+    var(--secondary) 53.5%,var(--secondary) 60%,var(--primary) 60%);
+    background-image: linear-gradient(-45deg,var(--secondary) 53.5%,var(--primary) 53.5%,
+    var(--primary) 60%,var(--secondary) 60%), linear-gradient(45deg,var(--secondary) 53.5%,
+    var(--primary) 53.5%,var(--primary) 60%,var(--secondary) 60%);
+    box-shadow: 5px 10px #000000;
+}
+
+.pos .inner{
+    display: block;
+    width:  150px;
+    height: 150px;
+    z-index: 10;
+    position: absolute;
+    clip-path: polygon(100% 50%, 50% 100%, 0 50%, 20% 50%, 50% 80%,80% 50%);
+    background-size: 50% 100%,50% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg,var(--primary) 40%,var(--secondary) 40%), 
+    linear-gradient(-45deg,var(--primary) 40%,var(--secondary) 40%);
+    background-image: linear-gradient(45deg,var(--secondary) 40%,var(--primary) 40%), 
+    linear-gradient(-45deg,var(--secondary) 40%,var(--primary) 40%);
+    
+}
+
+.pos img{
+    overflow: hidden;
+    position: absolute;
+    top: 17px;
+    width:  75px;
+    height: 95px;
+    z-index: 5;
+    box-shadow: 0px -2px 4px #ffffff99;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  45px;
+    height: 90px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: var(--secondary);
+}
+
+.end .end_inner{
+    width:  30px;
+    height: 60px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: var(--primary);
+    background: linear-gradient(90deg, var(--secondary) 20%, var(--primary) 100%);
+}
+
+.table_txt_bg{
+    background: var(--secondary);
+    overflow: hidden;
+}
+
+.table_detail_bg{
+    background: var(--secondary);
+    width: 100px;
+}
+
+.table_txt{
+    color: var(--primary_txt);
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.spacer2{
+    height: 30px;
+}
+
+.bg{
+    background: var(--secondary);
+    width: 100%;
+    height: 100%;
+}

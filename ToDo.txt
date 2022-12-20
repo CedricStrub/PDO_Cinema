@@ -1,0 +1,5 @@
+faire une home page et son css
+
+mettre en place les liens entre les pages
+
+terminer le header
